@@ -1,0 +1,29 @@
+/* Très petits écrans (smartphones, moins de 768px) */
+/* Pas besoin de media-query, c'est le style par défaut */
+
+/* Petits écrans (tablettes, 768px et plus) */
+@media (min-width: 768px) { ... }
+
+/* Ecrans moyens (desktops, 992px et plus) */
+@media (min-width: 992px) { ... }
+
+/* Grands écrans (large desktops, 1200px et plus) */
+@media (min-width: 1200px) {
+header {
+  background-color: blue;
+}
+
+li {
+  display: inline-block;
+}
+
+.navigation {
+  text-align: right;
+}
+
+h1 {
+  color: red;
+  font-size: 40px;
+}
+
+}
