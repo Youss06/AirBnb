@@ -25,12 +25,14 @@ width: 30%;
 }
 
 li {
+  margin:0 10px;
   display: inline-block;
 }
 
 
 
 .navigation {
+  margin:0 10px;
   position: static;
   width: 60%;
   text-align: right;
@@ -48,6 +50,10 @@ h1 {
 
 p {
   font-size: 30px;
+}
+
+.recherchedestination {
+  border: 1px solid lightgrey;
 }
 
 }
