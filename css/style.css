@@ -71,5 +71,27 @@ img {
   width: 240px;
 }
 
+.figestimer {
+  display: inline-block;
+  margin-left: 90px;;
+}
+
+.imageestimer {
+  display: inline-block;
+  width: 250%;
+}
+
+form {
+  display: inline-block;
+}
+
+.h2estimer {
+  font-size: 110%;
+}
+
+p {
+  text-align: center;
+  font-size: 110%;
+}
 
 }
