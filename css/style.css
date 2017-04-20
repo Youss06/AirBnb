@@ -52,8 +52,24 @@ p {
   font-size: 30px;
 }
 
-.recherchedestination {
-  border: 1px solid lightgrey;
+
+input {
+  border: none;
 }
+
+section {
+  width: 99%;
+  display: inline-block;
+}
+
+figure {
+  display: inline-block;
+  width: 228px;
+}
+
+img {
+  width: 240px;
+}
+
 
 }
