@@ -3,14 +3,51 @@
 
 /* Petits écrans (tablettes, 768px et plus) */
 @media (min-width: 768px) {
-.logo, .navigation {
+.logo, .navigation, label, button {
   display: none;
 }
 .logotablette {
   width: 40px;
 }
 
+input {
+  border: none;
+}
 
+
+.recherchedestination {
+  border: 1px solid lightgrey;
+  width: 90%;
+}
+
+
+h1 {
+  color: #FF5A5F;
+  font-size: 40px;
+}
+
+p {
+  font-size: 30px;
+}
+
+h2, ul {
+  color: #484848;
+}
+
+section {
+  display: inline-block;
+}
+
+figure {
+  vertical-align: top;
+  display: inline-block;
+  width: 90px;
+}
+
+img {
+  display: inline-block;
+  width: 160px;
+}
 
  }
 
