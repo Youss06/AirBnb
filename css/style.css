@@ -3,7 +3,7 @@
 
 /* Petits écrans (tablettes, 768px et plus) */
 @media (min-width: 768px) {
-.logo, .navigation, label, button {
+.logo, .navigation, label, button, .destination {
   display: none;
 }
 .logotablette {
@@ -47,6 +47,11 @@ figure {
 img {
   display: inline-block;
   width: 160px;
+}
+
+.florence, .sanfrancisco {
+  margin: 0 30px;
+  width: 300px;
 }
 
  }
