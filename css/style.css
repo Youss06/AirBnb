@@ -5,10 +5,7 @@
 @media (min-width: 768px) { ... }
 
 /* Ecrans moyens (desktops, 992px et plus) */
-@media (min-width: 992px) { ... }
-
-/* Grands écrans (large desktops, 1200px et plus) */
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
 header {
 }
 
@@ -18,7 +15,7 @@ nav {
   height: 120px;
 }
 .contenantlelogo {
-width: 30%;
+  width: 30%;
 }
 .logo {
   width: 7%;
@@ -136,7 +133,8 @@ footer {
 }
 
 .devise {
-  width: 100%;
+  width: 80%;
+  height: 100px;
   padding-top: 100px;
   display: inline-block;
 }
@@ -148,17 +146,17 @@ select {
 }
 
 .bouttonestimer {
-background-color: #008489;
-width: 190px;
-height: 40px;
+  background-color: #008489;
+  width: 190px;
+  height: 40px;
 }
 
 
 .airbnb, .decouvrir, .hebergement {
-  width: 330px;
+  width: 230px;
   display: inline-block;
   font-size: 80%;
-  margin: 0 10px;
+  margin: 0 30px;
 }
 
 .marque {
