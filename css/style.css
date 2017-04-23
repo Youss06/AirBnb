@@ -2,7 +2,17 @@
 /* Pas besoin de media-query, c'est le style par défaut */
 
 /* Petits écrans (tablettes, 768px et plus) */
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) {
+.logo, .navigation {
+  display: none;
+}
+.logotablette {
+  width: 40px;
+}
+
+
+
+ }
 
 /* Ecrans moyens (desktops, 992px et plus) */
 @media (min-width: 992px) {
