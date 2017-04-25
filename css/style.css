@@ -1,12 +1,31 @@
 /* Très petits écrans (smartphones, moins de 768px) */
 /* Pas besoin de media-query, c'est le style par défaut */
 
+.logo, .img, .navigation, .destination, .imageestimer, .logotablette {
+  display: none;
+}
+
+form {
+  width: 10px;
+}
+
+ul li {
+  display: inline-block;
+}
+
+figure, .imgphone, section {
+  display: inline-block;
+}
+
+
+
+
 /* Petits écrans (tablettes, 768px et plus) */
 @media (min-width: 768px) {
 
 
 
-.logo, .navigation, label, .destination {
+.logo, .logophone, .navigation, label, .destination {
  display: none;
 }
 
@@ -22,6 +41,11 @@ input {
   border: none;
 }
 
+
+
+img {
+  display: block;
+}
 
 .recherchedestination {
   border: 1px solid lightgrey;
@@ -42,11 +66,8 @@ h2, ul {
   color: #484848;
 }
 
-li {
-  display: inline-block;
-}
 
-section {
+section, li {
   display: inline-block;
 }
 
@@ -57,6 +78,7 @@ figure {
 }
 
 img {
+  display: block;
   display: inline-block;
   width: 160px;
 }
@@ -151,6 +173,10 @@ select {
 /* Ecrans moyens (desktops, 992px et plus) */
 @media (min-width: 992px) {
 
+.logophone {
+  display: none;
+}
+
 .logotablette {
   width: 10%;
   margin-left: -23px;
@@ -233,6 +259,14 @@ h2, ul {
 input {
   height: 100px;
   border: none;
+}
+
+.imgphone {
+  display: none;
+}
+
+.img {
+  display: block;
 }
 
 button {
